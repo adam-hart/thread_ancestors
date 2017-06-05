@@ -1,0 +1,38 @@
+PATH
+  remote: .
+  specs:
+    thread_ancestors (0.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bump (0.5.3)
+    diff-lcs (1.2.5)
+    rake (12.0.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    single_cov (0.5.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bump
+  rake
+  rspec
+  single_cov
+  thread_ancestors!
+
+BUNDLED WITH
+   1.13.6
