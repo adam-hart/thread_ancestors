@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    thread_ancestors (0.0.0)
+    thread_ancestors (0.1.0)
 
 GEM
   remote: https://rubygems.org/
