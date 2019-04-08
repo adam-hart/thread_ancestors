@@ -1,5 +1,5 @@
 module ThreadAncestors
-  def initialize
+  def initialize(*)
     @_parent = Thread.current
     super
   end

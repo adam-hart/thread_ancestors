@@ -17,6 +17,12 @@ describe ThreadAncestors do
     end.join
   end
 
+  it "handles thread initialization with args" do
+    Thread.new(123) do
+      expect(Thread.current.parent).to equal(Thread.main)
+    end.join
+  end
+
   it "can access ancestors multiple layers deep" do
     Thread.new do
       Thread.new do
